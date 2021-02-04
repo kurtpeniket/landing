@@ -1,0 +1,27 @@
+.more-info {
+    background-color: white;
+    padding: 40px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    /* background-color: grey; */
+}
+
+.card-collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: smaller;
+}
+
+.card {
+    box-shadow: 3px 3px 30px darkslategrey;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.card:hover {
+    /* box-shadow: 0 5px #666; */
+    transform: translateY(-20px);
+}

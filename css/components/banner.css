@@ -1,0 +1,54 @@
+.banner {
+    background-image: url("https://watsongym.co.uk/wp-content/uploads/2020/02/Slider-2-Image-1-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    padding: 100px;
+}
+
+.container {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 20px;
+    /* color: white; */
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 75px;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    background-color: #020202;
+}
+
+a {
+    color: white;
+}
+
+.footer a:hover {
+    color: #45ED88;
+}
+
+.btn {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: white;
+    background-color: #45ED88;
+    border-radius: 15px;
+    opacity: .7;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.reviews {
+    margin-left: 30%;
+    margin-right: 30%;
+}
